@@ -8,8 +8,28 @@ body {
     font-weight: 200;
 }
 
-strong,b {
+strong,
+b {
     font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+h3 {
+    margin-top: 10px;
+}
+
+.component-header {
+    font-weight: 200;
+    font-family: "Cinzel", "Georgia", "Times New Roman", serif;
+}
+
+.component {
+    margin-top: 10px;
 }
 
 .role {
@@ -18,24 +38,12 @@ strong,b {
     margin-top: 10px;
 }
 
-h1 {
-    text-align: center;
-    margin-bottom: 0;
-}
-
-.component-header {
-    font-weight: 200;
-    font-family: "Cinzel", "Georgia", "Times New Roman", serif;
-}
-.component{
-    margin-top: 10px;
-}
-.menu {
-    display: flex;
-}
-
 nav {
     justify-content: space-around;
+}
+
+.menu {
+    display: flex;
 }
 
 ul {
@@ -54,6 +62,7 @@ a {
     color: inherit;
 }
 
-h3 {
+
+footer {
     margin-top: 10px;
 }
