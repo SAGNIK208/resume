@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin-bottom: 2px;
+}
+
+
+body {
+    font-weight: 200;
+}
+
+strong,b {
+    font-weight: bold;
+}
+
+.role {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.component-header {
+    font-weight: 200;
+    font-family: "Cinzel", "Georgia", "Times New Roman", serif;
+}
+.component{
+    margin-top: 10px;
+}
+.menu {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+}
+
+ul {
+    margin-top: 0;
+}
+
+.menu>ul>li {
+    display: inline;
+}
+
+.project-name {
+    margin-bottom: 0;
+}
+
+a {
+    color: inherit;
+}
+
+h3 {
+    margin-top: 10px;
+}
